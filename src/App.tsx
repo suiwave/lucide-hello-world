@@ -1,13 +1,9 @@
-import { Beer, Trophy } from 'lucide-react';
+import Trophy from './components/Trophy';
 
 // Usage
 const App = () => {
   return <>
-    <Beer color="orange" size={48} />
-    <Beer color="orange" size={48} />
-    <Trophy color="orange" size={48} />
-    <Beer color="orange" size={48} />
-    <Beer color="orange" size={48} />
+    <Trophy />
   </>;
 };
 
